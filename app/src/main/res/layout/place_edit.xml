@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/place_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name"/>
+    <EditText
+        android:id="@+id/place_memo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="memo"
+        />
+    <EditText
+        android:id="@+id/place_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tel"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/place_lat"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="lat: "
+          />
+        <EditText
+            android:id="@+id/place_long"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="long: "
+        />
+    </LinearLayout>
+    <Button
+        android:id="@+id/place_edit_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ok"/>
+</LinearLayout>
